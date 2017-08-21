@@ -1,5 +1,5 @@
-# En el siguiente código reemplaza la instrucción 'for' por 'times'
+# En el siguiente codigo reemplaza la instruccion 'for' por 'times'
 
-for i in 1..10 do
+11.times do |i|
   puts i
 end
