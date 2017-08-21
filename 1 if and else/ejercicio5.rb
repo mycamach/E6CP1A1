@@ -4,8 +4,8 @@
 a = true
 b = true
 
-puts 'Lograste A y B!' if a == true && b == true
+puts 'Lograste A y B!' if a && b
 
-puts 'Lograste A! Pero no B!' if a == true && b == false
+puts 'Lograste A! Pero no B!' if a && !b
 
-puts 'No lograste A ni B!' if a == false && b == false
+puts 'No lograste A ni B!' if !a && !b
