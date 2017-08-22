@@ -11,3 +11,9 @@
 </table>
 
 =end
+
+a = 
+b = ['<table>']
+
+a.times do 
+	b.push ['<td>']
