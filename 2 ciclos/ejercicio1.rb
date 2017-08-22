@@ -1,5 +1,6 @@
 # En el siguiente codigo reemplaza la instruccion 'for' por 'times'
 
-11.times do |i|
+10.times do |i|
+  i += 1
   puts i
 end
