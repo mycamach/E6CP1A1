@@ -25,22 +25,18 @@ Generar el código para imprimir la siguiente tabla:
  </table>
 =end
 
-
 i = 0
 b = ['<table>']
 b.push('<tbody>')
 
 3.times do
-  
   b.push(' <tr>')
-  b.push("   <td> #{i + 1} </td>")
-  b.push("   <td> #{i + 2} </td>")
-  b.push("   <td> #{i + 3} </td>")
-  b.push("   <td> #{i + 4} </td>")
+
+  4.times do
+    b.push("   <td> #{i += 1} </td>")
+  end
+
   b.push(' </tr>')
-
-i += 4
-
 end
 
 b.push('<tbody>')
