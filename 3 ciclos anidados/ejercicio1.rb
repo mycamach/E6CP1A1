@@ -8,13 +8,8 @@ Se pide imprimir la secuencia numérica, de la siguiente forma:
 
 i = 1
 
-while i <=4
-	print "#{i*1}  ", "#{i*2}  ", "#{i*3}  ", "#{i*4}  ", "\n"  
-
-i += 1 
+while i <= 4
+  print "#{i * 1}  ", "#{i * 2}  ", "#{i * 3}  ", "#{i * 4}  ", "\n"
+  i += 1
 
 end
-
-
-
-
