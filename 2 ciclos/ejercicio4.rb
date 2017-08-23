@@ -17,4 +17,3 @@ end
 b.push('</ul>')
 
 puts b
-
