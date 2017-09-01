@@ -3,14 +3,31 @@
 # que se ingrese un 0 (cero).
 # Ingrese un número (0 para salir): _
 
-puts 'Ingrese un número (0 para salir)'
-n = gets.chomp.to_i
+n = 0
 
-i = 1
+while n < 12
+  puts 'Ingrese un número (0 para salir)'
+  n = gets.chomp.to_i
+  
+  exit if n.zero?
 
-while i <= 12 && i >= 0
+  12.times do |i|
+    i += 1
+    resultado = n * i
+    puts "#{n} x #{i} = #{resultado}"
+  end
+end
+
+=begin
+
+if i != 0 && i <= 12 
   resultado = n * i
   puts "#{n} x #{i} = #{resultado}"
   i += 1
-  break if i.zero?
+elsif i == 0
+	puts "Ha salido"
 end
+
+=end
+
+# PENDIENTE 0
